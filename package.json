@@ -1,0 +1,17 @@
+{
+  "name": "threejs-debug-ui-project",
+  "version": "1.0.0",
+  "description": "Three.js debug UI project.",
+  "scripts": {
+    "dev": "vite",
+    "build": "npx vite build"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lil-gui": "^0.19.1",
+    "three": "^0.165.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.20"
+  }
+}
