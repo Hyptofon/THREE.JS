@@ -28,5 +28,24 @@ export default class Sizes extends EventEmitter {
 
             this.trigger('resize');
         });
+
+        // Обробка повноекранного режиму (Fullscreen) по подвійному кліку
+        window.addEventListener('dblclick', () => {
+            const fullscreenElement = document.fullscreenElement || document.webkitFullscreenElement;
+
+            if(!fullscreenElement) {
+                if(document.documentElement.requestFullscreen) {
+                    document.documentElement.requestFullscreen();
+                } else if(document.documentElement.webkitRequestFullscreen) {
+                    document.documentElement.webkitRequestFullscreen();
+                }
+            } else {
+                if(document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if(document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            }
+        });
     }
 }
