@@ -44,16 +44,22 @@ body {
 
 /* Custom GUI styling */
 .lil-gui {
-  --background-color: rgba(20, 20, 20, 0.9);
-  --text-color: #ffffff;
-  --title-background-color: rgba(40, 40, 40, 0.9);
-  --title-text-color: #4ecdc4;
-  --widget-color: rgba(60, 60, 60, 0.9);
-  --hover-color: rgba(80, 80, 80, 0.9);
-  --focus-color: #4ecdc4;
-  --number-color: #45b7d1;
-  --string-color: #f9ca24;
-  backdrop-filter: blur(10px);
+  --background-color: rgba(15, 15, 20, 0.6);
+  --text-color: #cbd5e1;
+  --title-background-color: rgba(25, 25, 30, 0.8);
+  --title-text-color: #f8fafc;
+  --widget-color: rgba(40, 40, 50, 0.6);
+  --hover-color: rgba(60, 60, 75, 0.8);
+  --focus-color: rgba(255, 255, 255, 0.15);   
+  --number-color: #4ecdc4; 
+  --string-color: #f472b6;
+  --folder-indent: 10px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 .lil-gui.root {
