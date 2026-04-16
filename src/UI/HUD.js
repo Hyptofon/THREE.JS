@@ -43,6 +43,14 @@ export default class HUD {
                     </kbd>
                     Вийти до меню
                 </span>
+                <div style="width:1px; height:16px; background:rgba(255,255,255,0.2);"></div>
+                <span>
+                    <kbd style="background:rgba(255,255,255,0.2); padding:4px 8px; border-radius:4px;
+                                border:1px solid rgba(255,255,255,0.4); box-shadow:0 2px 0 rgba(0,0,0,0.2);">
+                        Double-Click
+                    </kbd>
+                    Повний екран
+                </span>
             </div>
         `;
 
