@@ -1,7 +1,7 @@
 {
-  "name": "threejs-debug-ui-project",
+  "name": "threejs-interactive-sandbox",
   "version": "1.0.0",
-  "description": "Three.js debug UI project.",
+  "description": "Three.js Interactive Sandbox.",
   "scripts": {
     "dev": "vite",
     "build": "npx vite build"
